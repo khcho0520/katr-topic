@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.pyc
+/cache/
+/runs/
+.DS_Store
+.pytest_cache/
+
+# local-only
+_to_delete/
+Claude outputs/
+.claude/

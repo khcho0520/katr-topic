@@ -1,0 +1,45 @@
+{
+ "note": "Mapping from paper labels to run files in results/runs. Deterministic settings give identical values in both experiment folders; alpha=0.3 was run only in 5e438796.",
+ "map": {
+  "LDA": {
+   "source_experiment": "exp_bigkinds_2026-01_3개월_5e438797",
+   "config_hash": "lda_f87e785a33ff"
+  },
+  "NMF": {
+   "source_experiment": "exp_bigkinds_2026-01_3개월_5e438797",
+   "config_hash": "nmf_28b1af447262"
+  },
+  "BERTopic": {
+   "source_experiment": "exp_bigkinds_2026-01_3개월_5e438797",
+   "config_hash": "bertopic_5078c7ae1138"
+  },
+  "BERTopic-full": {
+   "source_experiment": "exp_bigkinds_2026-01_3개월_5e438797",
+   "config_hash": "bertopic_37cdfcc14397"
+  },
+  "QualIT": {
+   "source_experiment": "exp_bigkinds_2026-01_3개월_5e438797",
+   "config_hash": "qualit_8134100ff4b2"
+  },
+  "QualIT-combined": {
+   "source_experiment": "exp_bigkinds_2026-01_3개월_5e438797",
+   "config_hash": "qualit_a71487224cd2"
+  },
+  "KATR (alpha=0.3)": {
+   "source_experiment": "exp_bigkinds_2026-01_3개월_5e438796",
+   "config_hash": "katr_f645949902c2"
+  },
+  "KATR (alpha=0.6)": {
+   "source_experiment": "exp_bigkinds_2026-01_3개월_5e438797",
+   "config_hash": "katr_ea697021542b"
+  },
+  "KATR (alpha=1)": {
+   "source_experiment": "exp_bigkinds_2026-01_3개월_5e438797",
+   "config_hash": "katr_1f1b1a9a8138"
+  },
+  "KATR-core": {
+   "source_experiment": "exp_bigkinds_2026-01_3개월_5e438797",
+   "config_hash": "katr_c7a668322d5d"
+  }
+ }
+}
